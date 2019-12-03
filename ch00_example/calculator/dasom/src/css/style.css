@@ -1,0 +1,24 @@
+table {
+  border-collapse: collapse;
+  border: 1px solid #999;
+}
+td {
+  padding: 15px 25px;
+  text-align: center;
+  background-color: #ededed;
+  cursor: pointer;
+  border: 1px solid #999;
+}
+.btn_orange{
+  background-color: orange;
+  color:#fff;
+}
+.input_box{
+  background-color: #666;
+}
+.input_box input {
+  background-color: #666;
+  border: none;
+  color:#fff;
+  outline: none;
+}
