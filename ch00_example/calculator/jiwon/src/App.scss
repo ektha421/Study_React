@@ -1,0 +1,66 @@
+.area-calculator {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    background: #222;
+    margin: 20px;
+    width: 230px;
+
+    table {
+        width: 100%;
+
+        thead {
+
+            tr {
+                td {
+                    padding: 15px 5px 30px;
+                }
+            }
+        }
+
+
+        tr {
+
+            th,
+            td {
+                padding: 10px 5px;
+            }
+
+            input {
+                line-height: 40px;
+                width: 100%;
+                padding: 0 10px;
+                margin: 0;
+                box-sizing: border-box;
+                font-size: 20px;
+                border: 5px solid #ccc;
+                background: #aaa;
+                color: #444;
+            }
+
+            button {
+                font-size: 20px;
+                font-weight: 500;
+                width: 100%;
+                line-height: 40px;
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                background: #444;
+                color: #fff;
+                border-radius: 10px;
+                border: 0;
+
+                &.btn-operator {
+                    background: green;
+                }
+
+                &.btn-reset {
+                    background: orange;
+                    color: #fff;
+                }
+            }
+        }
+
+    }
+}

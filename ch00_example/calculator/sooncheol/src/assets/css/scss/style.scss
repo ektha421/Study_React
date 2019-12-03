@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/*-------------------------------------------------
+Author : 최순철
+Create date : 2019-10-19
+-------------------------------------------------*/
+.calc-wrap {
+  overflow: hidden;
+  width: 480px;
+  border-radius: 4px;
+
+  .calc-header {
+    padding: 10px;
+    background-color: #2f3154;
+    color: #333;
+
+    .value {
+      background-color: #dfdfdf;
+      padding: 10px;
+      font-size: 30px;
+      line-height: 30px;
+      text-align: right;
+    }
+  }
+
+  .calc-button {
+    display: table;
+    width: 100%;
+    padding: 10px;
+    background-color: #47486b;
+
+    &>* {
+      overflow: hidden;
+      display: table-cell;
+      vertical-align: top;
+    }
+
+    .btn {
+      padding: 5px;
+
+      button {
+        width: 100%;
+        height: 85px;
+        padding: 0;
+        border-radius: 5px;
+        background-color: #ababab;
+        line-height: 85px;
+        text-align: center;
+        font-size: 28px;
+        color: #fff
+      }
+    }
+
+    .calc-number {
+      width: 290px;
+
+      .btn {
+        float: left;
+        width: 105px;
+      }
+    }
+
+    .calc-form {
+      width: 130px;
+
+    }
+  }
+}
